@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suggestions</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="mainheading">Feedback Form</h1>
+            <h3>User Information</h3>
+            <div class="info1">
+                <p>Name: <input type="text" placeholder="name"></p>
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <label for="1011"><input type="radio" value="male" name="gender" id="1011">Male</label>
+                    <label for="1021"><input type="radio" value="GOOD" name="gender" id="1021">Female</label>
+                    <label for="1031"><input type="radio" value="not" name="gender" id="1031">Trans Gender</label>
+                    <label for="1041"><input type="radio" value="other" name="gender" id="1041">Prefer not to
+                        say</label>
+                </fieldset>
+
+                <p>Mob. Number:<input type="number" placeholder="mobile number"></p>
+                <p>Email: <input type="email" placeholder="email"></p>
+                <p>Address:</p>
+                <textarea class="area" name="adress" id="" cols="82" rows="6" placeholder=" Your address here"></textarea>
+                <br><br>
+                <fieldset class="city">
+                    <legend>Select Your City:</legend>
+                    <select name="city" id="30000">
+                        <option value="shivpuri">SHIVPURI</option>
+                        <option value="gwalior">GWALIOR</option>
+                        <option value="guna">GUNA</option>
+                        <option value="jhansi">JHANSI</option>
+                        <option value="jodhpur">JODHPUR</option>
+                        <option value="jabalpur">JABALPUR</option>
+                        <option value="balaghat">BALAGHAT</option>
+                        <option value="seoni">SEONI</option>
+                        <option value="bhopal">BJOPAL</option>
+                        <option value="other">OTHER</option>
+                    </select>
+                </fieldset>
+            </div>
+            <h3>User feedback</h3>
+            <fieldset class="switches">
+                <legend>Rate My Website:</legend>
+                <label for="101"><input type="radio" value="AMAZING" name="rate" id="101">Amazing</label>
+                <label for="102"><input type="radio" value="GOOD" name="rate" id="102">Good</label>
+                <label for="103"><input type="radio" value="WELL TRIED" name="rate" id="103">Well tried</label>
+                <label for="104"> <input type="radio" value="NOT SO GOOD" name="rate" id="104">Not so good</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Your Favrouit Parts:</legend>
+                <label for="1001"><input type="checkbox" value="images" name="images" id="1001">Images</label>
+                <label for="1002"><input type="checkbox" value="layout" name="layout" id="1002">Layout</label>
+                <label for="1003"><input type="checkbox" value="color STYLE" name="color style" id="1003">Color
+                    style</label>
+                <label for="1004"><input type="checkbox" value="none" name="none" id="1004">None</label>
+            </fieldset>
+            <br>
+            <p>Your valuable feedback:</p>
+            <textarea class="area" name="feedback" id="998" cols="82" rows="10" placeholder=" Thanks for visiting"></textarea>
+
+            <link rel="stylesheet" href="suggestion.css">
+            <br><br>
+            <button>submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
